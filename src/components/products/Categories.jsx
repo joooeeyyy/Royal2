@@ -21,7 +21,7 @@ const Categories = () => {
     "Bumper Repair",
     "Exterior Body Restoration",
     "Vehicle Painting",
-    "Auto Exterior Customization",
+    // "Auto Exterior Customization",
   ];
 
   const handleCategorySelect = (index) => {

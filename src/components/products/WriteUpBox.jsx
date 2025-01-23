@@ -5,7 +5,7 @@ import Text from "../shared/Text";
 const WriteUpBox = (props) => {
   return (
     <Container>
-      <Text fontSize="32px">{props.children}</Text>
+      <Text fontSize="24px">{props.children}</Text>
     </Container>
   );
 };
