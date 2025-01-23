@@ -19,7 +19,7 @@ const Categories = () => {
 
   const carCategoryOptions = [
     "Bumper Repair",
-    "Auto Customization",
+    "Exterior Body Restoration",
     "Vehicle Painting",
     "Auto Exterior Customization",
   ];
