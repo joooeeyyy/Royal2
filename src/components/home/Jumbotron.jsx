@@ -21,10 +21,10 @@ const Jumbotron = () => {
       <Inner>
         <TextDiv>
           <ColoredSpan>
-            ROYAL AUTO-BODY AND PAINTING Your trusted partner in automotive care
-            and repair . Our mission is simple : To provide exceptional car
-            maintenance and repair services , ensuring your vehicle performs at
-            it best.
+            ROYAL AUTO-BODY WORK AND PAINTING LLC Your trusted partner in auto
+            body and collision refinishing , Our mission is simple to provide
+            exceptional car collison repair and painting services ensuring your
+            vehicle is restored to it manufacturer specification.
           </ColoredSpan>
           <Text
             fontSize={isMobile ? "40px" : "50px"}
