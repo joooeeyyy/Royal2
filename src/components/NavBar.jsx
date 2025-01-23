@@ -40,7 +40,11 @@ const NavBar = () => {
     <Container>
       <Inner>
         <nav className="bg-transparent-800 p-0 flex items-center justify-center">
-          <img src={logoCar} alt="hookbank" style={{ width: "160px" }} />
+          <img
+            src={logoCar}
+            alt="hookbank"
+            style={{ width: "120px", height: "50px" }}
+          />
           <ul
             className={`list-none flex-1 sm:flex hidden [&_a]:block [&_a]:text-black-500 justify-end items-center [&_a:hover]:text-red-500`}
           >
