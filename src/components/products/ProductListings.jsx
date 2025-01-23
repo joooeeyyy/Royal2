@@ -153,10 +153,10 @@ const ProductListings = () => {
   ][currentCategoryIndex];
 
   const listOfWriteUp = [
-    "From minor scratches to major cracks , we specialize in restoring your bumpers ,Fenders , Hoods , Quarter Panels , Running boards , Truck lids e.t.c and general overall of the exterior body of the vehicle by our experts. we use state of the act advance equipments and materials to ensure seamless repairs its original condition .You can reply on our certified technicians to handle your auto collision and painting needs",
-    "Unleash your vehicle personality with our comprehensive auto customization services. From aesthetic upgrades to functional enhancements , our team collaborates closely with you to bring your vision to life . weather it is custom bodywork , interior upgrades , or performance twearks , we ensure your car is a true reflection of your style and needs",
+    "From minor scratches to major cracks , we specialize in restoring your bumpers ,Fenders , Hoods , Quarter Panels , Running boards , Truck lids e.t.c and general overall of the exterior body of the vehicle by our experts. we use state of the art advance equipments and materials to ensure seamless repairs to it original condition .You can rely on our certified technicians to handle your auto collision and painting needs",
+    "Unleash your vehicle personality with our comprehensive auto customization services. From aesthetic upgrades to functional enhancements , our team collaborates closely with you to bring your vision to life . Be it a custom bodywork , interior upgrades , or performance changes , we ensure your car is a true reflection of your style and needs",
     "Give your car a fresh vibrant look with our professional vehicle painting services. Be it a fully body repaint , color changes , or touch up , we use OEM paints and precision techniques to achieve a flawless finish. Our work not only enhances your vehicle aesthetics but also protects it from enviromental damage by applying anti ultraviolet coating in our refinishing , ensuring lasting beauty. ",
-    "Make a bold statement with our exterior customization services . From custom decals and wraps to unique body modifications , we transform your vehicles exterior to stand out on the road. with a keen eye for detail and a commitment to quality , we deliver stunning results that match your vision and exceed your expectation",
+    "Make a bold statement with our exterior customization services . From custom designs to unique body modifications , we transform your vehicles exterior to stand out on the road. with a keen eye for detail and a commitment to quality , we deliver stunning results that match your vision and exceed your expectation",
   ][currentWriteUpIndex];
 
   return (

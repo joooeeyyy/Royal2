@@ -18,7 +18,7 @@ const Jumbotron = () => {
         <ImageDiv>{isICT && <img src={tech} />}</ImageDiv>
         <TextDiv>
           {isICT && (
-            <Text fontSize={mobile ? "32px" : "50px"}>
+            <Text fontSize={mobile ? "25px" : "50px"}>
               {" "}
               <span className="text-gradient">The Best</span> Services at{" "}
               <span className="text-gradient">Royal AutoBody And Painting</span>{" "}

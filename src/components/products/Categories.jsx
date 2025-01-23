@@ -18,10 +18,9 @@ const Categories = () => {
   ];
 
   const carCategoryOptions = [
-    "Bumper Repair",
+    "Auto Body Repair",
     "Exterior Body Restoration",
     "Vehicle Painting",
-    "Auto Body Repair",
   ];
 
   const handleCategorySelect = (index) => {
