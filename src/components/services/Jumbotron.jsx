@@ -22,15 +22,12 @@ const Jumbotron = () => {
               {" "}
               <span className="text-gradient">The Best</span> Services at{" "}
               <span className="text-gradient">Royal AutoBody And Painting</span>{" "}
-              we strive to build our business by making your{" "}
+              we use quality materials available and techniques for the
+              longetivity of the job performed{" "}
               <span className="text-gradient">
-                Car work smoothly without any
+                longetivity of the job performed
               </span>{" "}
-              future inconvinences{" "}
-              <span className="text-gradient">
-                {" "}
-                thereby avoiding future car failure
-              </span>
+              job performed <span className="text-gradient"> </span>
             </Text>
           )}
           {!isICT && (

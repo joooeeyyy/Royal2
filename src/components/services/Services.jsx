@@ -125,7 +125,7 @@ const Services = () => {
               lineHeight="1.2"
               style={{ display: "flex", alignItems: "center", gap: "1rem" }}
             >
-              <FiCheckCircle color="#fff100" size="" /> Information Security
+              <FiCheckCircle color="#fff100" size="" />
             </Text>
             <Text
               lineHeight="1.2"
