@@ -29,15 +29,15 @@ const Market = () => {
       name: "Vehicle Painting",
       icon: <GiLeatherBoot color="#fff100" size="3.5rem" />,
     },
-    { name: "Masks", icon: <PiFaceMaskFill color="#fff100" size="3.5rem" /> },
+    // { name: "Masks", icon: <PiFaceMaskFill color="#fff100" size="3.5rem" /> },
     {
       name: "Auto Exterior Customization",
       icon: <GiSteampunkGoggles color="#fff100" size="3.5rem" />,
     },
-    {
-      name: "Tyre Changes",
-      icon: <ImHeadphones color="#fff100" size="3rem" />,
-    },
+    // {
+    //   name: "Tyre Changes",
+    //   icon: <ImHeadphones color="#fff100" size="3rem" />,
+    // },
     {
       name: "Body Part Changes",
       icon: <FaVest color="#fff100" size="3.5rem" />,

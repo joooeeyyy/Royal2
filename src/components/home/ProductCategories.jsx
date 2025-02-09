@@ -3,9 +3,11 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Text from "../../components/shared/Text";
 import {
-  helmet,
-  safetyVest,
-  gloves,
+  BodyParts,
+  bumperRepair,
+  autoCustomization,
+  vehiclePainting,
+  autoExteriorCustomization,
   coveralls,
   eyeprotection,
   earprotection,
@@ -29,32 +31,38 @@ const ProductCategories = () => {
   const categories = [
     {
       name: "Bumper Repair",
-      image: <Image src={helmet} alt="" />,
+      image: <Image src={bumperRepair} alt="" style={{ width: "100%" }} />,
     },
     {
       name: "Auto Customization",
-      image: <Image src={safetyVest} alt="" />,
+      image: <Image src={autoCustomization} alt="" style={{ width: "100%" }} />,
     },
     {
       name: "Vehicle Painting",
-      image: <Image src={gloves} alt="" />,
+      image: <Image src={vehiclePainting} alt="" style={{ width: "100%" }} />,
     },
     {
       name: "Auto Exterior customization",
-      image: <Image src={safetyBoots} alt="" />,
+      image: (
+        <Image
+          src={autoExteriorCustomization}
+          alt=""
+          style={{ width: "100%" }}
+        />
+      ),
     },
-    {
-      name: "Tyre Changes",
-      image: <Image src={coveralls} alt="" />,
-    },
+    // {
+    //   name: "Tyre Changes",
+    //   image: <Image src={coveralls} alt="" />,
+    // },
     {
       name: "Body parts",
-      image: <Image src={earprotection} alt="" />,
+      image: <Image src={BodyParts} alt="" style={{ width: "100%" }} />,
     },
-    {
-      name: "Car Mirror Fixes",
-      image: <Image src={eyeprotection} alt="" />,
-    },
+    // {
+    //   name: "Car Mirror Fixes",
+    //   image: <Image src={eyeprotection} alt="" />,
+    // },
     // {
     //   name: "Flotation Jacket",
     //   image: <Image src={flotationjacket} alt="" />,
@@ -76,7 +84,9 @@ const ProductCategories = () => {
           {categories.map(({ name, image }, index) => (
             <Link to={"/product"} key={"one"} onClick={scrollToTop}>
               <Card key={index}>
-                <div onClick={() => navigate("/product")}>{image}</div>
+                <div className onClick={() => navigate("/product")}>
+                  {image}
+                </div>
                 <Text fontSize={isLaptop ? "25px" : "22px"} align="center">
                   {name}
                 </Text>
@@ -145,7 +155,7 @@ const Grid = styled.div`
   }
 
   @media ${lg} {
-    width: 80%;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
   @media ${xl} {
@@ -161,7 +171,8 @@ const Card = styled.div`
     #11101d 91.61%
   );
   /* color: #13f6ff */
-  height: 20rem;
+  height: auto;
+  width: 100%;
   align-items: center;
   display: flex;
   gap: 1.5rem;
@@ -184,12 +195,12 @@ const Card = styled.div`
     height: 30rem;
   } */
   @media ${lg} {
-    height: 30rem;
+    height: auto;
     justify-content: space-between;
     gap: 0;
   }
   @media ${xl} {
-    height: 20rem;
+    height: auto;
   }
 `;
 
