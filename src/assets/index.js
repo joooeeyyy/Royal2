@@ -91,7 +91,9 @@ import autoCustomization from "./autoCustomization.jpg";
 import vehiclePainting from "./vehiclePainting.jpg";
 import autoExteriorCustomization from "./autoExteriorCustomization.jpg";
 import BodyParts from "./BodyParts.jpg";
+import paintingReal from "./paintingBusiness.jpg";
 export {
+  paintingReal,
   BodyParts,
   autoExteriorCustomization,
   vehiclePainting,

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Text from "../../components/shared/Text";
 import {
+  paintingReal,
   BodyParts,
   bumperRepair,
   autoCustomization,
@@ -39,10 +40,10 @@ const ProductCategories = () => {
     },
     {
       name: "Vehicle Painting",
-      image: <Image src={vehiclePainting} alt="" style={{ width: "100%" }} />,
+      image: <Image src={paintingReal} alt="" style={{ width: "100%" }} />,
     },
     {
-      name: "Auto Exterior customization",
+      name: "Exterior refurbishment",
       image: (
         <Image
           src={autoExteriorCustomization}
@@ -56,7 +57,7 @@ const ProductCategories = () => {
     //   image: <Image src={coveralls} alt="" />,
     // },
     {
-      name: "Body parts",
+      name: "Body parts overhaul",
       image: <Image src={BodyParts} alt="" style={{ width: "100%" }} />,
     },
     // {
