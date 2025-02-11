@@ -36,7 +36,7 @@ const ProductCategories = () => {
       image: <Image src={bumperRepair} alt="" style={{ width: "100%" }} />,
     },
     {
-      name: "Auto Customization",
+      name: "Auto Customization.",
       image: <Image src={autoCustomization} alt="" style={{ width: "100%" }} />,
     },
     {

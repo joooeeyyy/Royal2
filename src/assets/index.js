@@ -94,6 +94,7 @@ import BodyParts from "./BodyParts.jpg";
 import paintingReal from "./paintingBusiness.jpg";
 import touchUpPaint from "./Edited.jpg";
 export {
+  touchUpPaint,
   paintingReal,
   BodyParts,
   autoExteriorCustomization,
