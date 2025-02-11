@@ -92,6 +92,7 @@ import vehiclePainting from "./vehiclePainting.jpg";
 import autoExteriorCustomization from "./autoExteriorCustomization.jpg";
 import BodyParts from "./BodyParts.jpg";
 import paintingReal from "./paintingBusiness.jpg";
+import touchUpPaint from "./Edited.jpg";
 export {
   paintingReal,
   BodyParts,

@@ -15,6 +15,7 @@ import {
   safetyBoots,
   respirators,
   flotationjacket,
+  touchUpPaint,
 } from "../../assets";
 import { devices, useMuiResponsiveness } from "../../utils/responsive";
 
@@ -39,8 +40,8 @@ const ProductCategories = () => {
       image: <Image src={autoCustomization} alt="" style={{ width: "100%" }} />,
     },
     {
-      name: "Vehicle Painting",
-      image: <Image src={paintingReal} alt="" style={{ width: "100%" }} />,
+      name: "Touch Up Painting",
+      image: <Image src={touchUpPaint} alt="" style={{ width: "100%" }} />,
     },
     {
       name: "Exterior refurbishment",
