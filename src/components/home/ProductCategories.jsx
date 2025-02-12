@@ -37,7 +37,7 @@ const ProductCategories = () => {
     },
     {
       name: "Auto Customization.",
-      image: <Image src={autoCustomization} alt="" style={{ width: "100%" }} />,
+      image: <Image src={vehiclePainting} alt="" style={{ width: "100%" }} />,
     },
     {
       name: "Touch Up Painting",
