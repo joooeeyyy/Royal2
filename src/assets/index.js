@@ -86,21 +86,21 @@ import backgroundPPE from "./backgroundPPE.png";
 import logoCar from "./logoCar.jpg";
 import carOne from "./carOne.jpg";
 import carFixes from "./carFixes.jpg";
-import bumperRepair from "./BumperRepair.jpg";
 import autoCustomization from "./autoCustomization.jpg";
 import vehiclePainting from "./vehiclePainting.jpg";
 import autoExteriorCustomization from "./autoExteriorCustomization.jpg";
 import BodyParts from "./BodyParts.jpg";
 import paintingReal from "./paintingBusiness.jpg";
 import touchUpPaint from "./Edited.jpg";
+import bumberRepairMain from "./bumperRepairMain.jpg";
 export {
+  bumberRepairMain,
   touchUpPaint,
   paintingReal,
   BodyParts,
   autoExteriorCustomization,
   vehiclePainting,
   autoCustomization,
-  bumperRepair,
   carFixes,
   carOne,
   logoCar,

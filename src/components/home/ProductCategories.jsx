@@ -5,7 +5,7 @@ import Text from "../../components/shared/Text";
 import {
   paintingReal,
   BodyParts,
-  bumperRepair,
+  bumberRepairMain,
   autoCustomization,
   vehiclePainting,
   autoExteriorCustomization,
@@ -33,7 +33,7 @@ const ProductCategories = () => {
   const categories = [
     {
       name: "Bumper Repair",
-      image: <Image src={bumperRepair} alt="" style={{ width: "100%" }} />,
+      image: <Image src={bumberRepairMain} alt="" style={{ width: "100%" }} />,
     },
     {
       name: "Auto Customization.",
